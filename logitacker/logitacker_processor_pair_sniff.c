@@ -358,7 +358,7 @@ void processor_pair_sniff_esb_handler_func_(logitacker_processor_pair_sniff_ctx_
             // missed dongle, re-transmit ping payload
 
             if (self->dongle_in_range) {
-                // if dongle was in range before, notify tha we lost track
+                // if dongle was in range before, notify that we lost track
                 NRF_LOG_INFO("Lost dongle in pairing mode, restart channel hopping");
                 self->dongle_in_range = false;
             }
